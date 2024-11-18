@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solid State</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <section id="home">
+            <div class="container">
+                <div class="icon">
+                    <img src="img1.jpg" alt="Icon" width="100%">
+                </div>
+                <h1>Mocha Beanery</h1>
+                <p>Savour the moment, one sip at a time</p>
+            </div>
+            <button class="menu-btn" onclick="openMenu()">MENU ☰</button>
+        </section>
+    </header>
+    <section id="about-us" class="about-us">
+        <div class="about-image">
+            <img src="img2.jpeg" alt="A cozy café environment">
+        </div>
+        <div class="content">
+            <h2>About Us</h2>
+            <p>Welcome to <strong>Mocha Beanery Café</strong>, your cozy retreat in the heart of the city! Our mission
+                is simple – to bring you the finest coffee experience with every cup. From rich, velvety mochas to
+                handpicked beans, we’re passionate about creating a warm and inviting space where everyone feels at
+                home.</p>
+            <p>Founded by coffee enthusiasts, we believe that coffee is more than just a drink – it’s a way to connect,
+                unwind, and savor the small moments. At Mocha & Beans, every blend is carefully crafted, every bean
+                ethically sourced, and every sip meant to bring joy to your day.</p>
+            <p>Whether you’re here for a quick espresso or a slow afternoon latte, our team is ready to serve you with a
+                smile. Come join us and let’s make your coffee moments unforgettable!</p>
+        </div>
+    </section>
+
+    <section id="beverages" class="beverages-section">
+        <h2>Beverages</h2>
+        <div class="beverages-container">
+            <div class="card">
+                <img src="espresso.jpeg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rich and bold coffee</p>
+                <span>₹120</span>
+            </div>
+            <div class="card">
+                <img src="capuccino.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Espresso with steamed milk and foam</p>
+                <span>₹150</span>
+            </div>
+            <div class="card">
+                <img src="latte.jpeg" alt="Latte">
+                <h3>Latte</h3>
+                <p>Smooth and creamy coffee</p>
+                <span>₹180</span>
+            </div>
+            <div class="card">
+                <img src="americano.jpeg" alt="Americano">
+                <h3>Americano</h3>
+                <p>Espresso diluted with hot water</p>
+                <span>₹110</span>
+            </div>
+            <div class="card">
+                <img src="mocha.jpg" alt="Mocha">
+                <h3>Mocha</h3>
+                <p>Chocolate and espresso blend</p>
+                <span>₹200</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews-section">
+        <h2>Customer Reviews</h2>
+        <div class="reviews-container">
+            <div class="review-card">
+                <p>"The ambiance here is amazing! The mocha was rich, creamy, and just perfect."</p>
+                <h3>- Alex Johnson</h3>
+                <span>★★★★★</span>
+            </div>
+            <div class="review-card">
+                <p>"Friendly staff and top-notch coffee. I come here every morning for my espresso fix!"</p>
+                <h3>- Sarah Lee</h3>
+                <span>★★★★★</span>
+            </div>
+            <div class="review-card">
+                <p>"A cozy spot with delicious lattes. Perfect for studying or just relaxing."</p>
+                <h3>- David Kim</h3>
+                <span>★★★★☆</span>
+            </div>
+            <div class="review-card">
+                <p>"Tried their cappuccino, and it was amazing! Highly recommended for coffee lovers."</p>
+                <h3>- Emily Brown</h3>
+                <span>★★★★★</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2>Our Café Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item"><img src="gallery2.jpeg" alt="Coffee brewing station"></div>
+            <div class="gallery-item"><img src="gallery4.jpeg" alt="Outdoor seating area"></div>
+            <div class="gallery-item"><img src="gallery5.jpeg" alt="Interior decor"></div>
+        </div>
+    </section>
+
+
+    <div class="overlay" id="overlayMenu">
+        <div class="overlay-content">
+            <span class="close-btn" onclick="closeMenu()">✖</span>
+            <h2>MENU</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#beverages">Beverages</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/" target="blank" rel="noopener noreferrer" style="--i:1">
+                <i class='bx bxl-instagram-alt'>_mochaBeanery</i>
+            </a>
+            <span>| Mocha Beanery | Contact us: +91 75510 30472</span>            
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
